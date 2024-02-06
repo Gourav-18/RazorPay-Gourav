@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxycard:hover svg{
+    box-shadow: 10px 10px 25px gray;
+}
+.boxycard:hover img{
+    background-color: rgb(99, 192, 225);
+}
+.coreftrs{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+/* Scrolling an image upside down vvvimp animation */
+.companyList{
+    animation: companyImage 10s linear infinite;
+}
+@keyframes companyImage {
+    0%{
+        top: 0;
+    }
+    100%{
+        top:-50%;
+    }
+}
+.ctaSec{
+    background-size: 100% 100%;
+}
